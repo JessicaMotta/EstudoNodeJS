@@ -1,0 +1,11 @@
+instalat git 
+https://git-scm.com/download/win
+
+abrir cmd e digitar "git --version"
+
+
+COMO CLONAR O REPOSITORIO? 
+1. abrir o terminal cmd como adm
+2. mkdir nomePasta
+3. cd nomePasta 
+4. git clone https://github.com/natanmacielc/tecnicas-programacao.git
