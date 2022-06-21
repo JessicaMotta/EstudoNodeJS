@@ -1,0 +1,41 @@
+/* 1 - faça uma função que receba o ano de nascimento e apresente o seu nome e idade
+function exibirNome(anoNascimento, nome){
+    let idade = 2022 - anoNascimento
+    console.log(nome+" sua idade é: "+idade);
+}
+exibirNome(1987,"fernanda");
+ */
+
+/*2- faça uma função que receba por parametro um valor e mostre os números entre 1000 e 2000 (inclusive) que, quando divididos por 11, produzam o resto igual a 5
+function ex2(num){
+    for (x = 1000; x <= 2000; x++) {
+        if(x%11 == 5){
+            console.log(x);
+        }
+        
+    }
+}
+ex2(1); */
+
+/* 3- faça uma função que mostre as tabuadas do 1 ao 10
+function tabuada(){
+    for(x =1; x <= 10; x++){
+        for(y = 1; y <= 10; y++){
+            console.log(x*y);
+        }
+    }
+} */
+
+/*  4 - faca uma função para receber a idade de 10 pessoas, calcular e mostrar quantas pessoas possuem maior ou igual a 18 anos.
+function ex4(){
+    let idade = 15;
+    let qtd = 0;
+    for (x = 1; x <= 10; x++){
+        if (idade >= 18){
+            qtd = qtd + 1;
+        }
+        idade = idade + 2;
+    }
+    console.log(" A quantidade é: "+qtd);
+}
+ex4(); */
